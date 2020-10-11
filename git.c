@@ -17,7 +17,9 @@ int main()
    {
        sal=sal+(sales*0.1);
    }
-  //T
+   else if (sales<50000)
+	{​​​​​
+	sal=sal+(sales*0.12);
   //I
    printf("Name : %s \n",s_name);
    printf("Your gross monthly remuneration is %f ",sal);
