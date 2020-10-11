@@ -11,9 +11,16 @@ int main()
    scanf("%s",&s_name);
    printf("Enter the area : ");
   //N
-  //A
+  if (serv>5)
 
-   if (sales<=25000)
+ {​​
+ sal=sal+(sal*0.1);
+ }​​
+ if (area=='C')
+ {​​
+  sal=sal+2500;
+ }​​
+  if (sales<=25000)
    {
        sal=sal+(sales*0.1);
    }
