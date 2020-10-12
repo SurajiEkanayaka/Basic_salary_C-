@@ -10,6 +10,7 @@ int main()
    printf("Enter your name : ");
    scanf("%s",&s_name);
    printf("Enter the area : ");
+
    scanf("%s",&area);
    printf("Enter your basic salary : ");
    scanf("%f",&b_salary);
@@ -20,7 +21,18 @@ int main()
    sal=b_salary; */
   //A
 
-   if (sales<=25000)
+  //N
+  if (serv>5)
+
+
+ {​​
+ sal=sal+(sal*0.1);
+ }​​
+ if (area=='C')
+ {​​
+  sal=sal+2500;
+ }​​
+  if (sales<=25000)
    {
        sal=sal+(sales*0.1);
    }
