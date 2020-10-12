@@ -10,8 +10,20 @@ int main()
    printf("Enter your name : ");
    scanf("%s",&s_name);
    printf("Enter the area : ");
+
+   scanf("%s",&area);
+   printf("Enter your basic salary : ");
+   scanf("%f",&b_salary);
+   printf("Enter your number of years in service : ");
+   scanf("%d",&serv);
+   printf("Monthly sales : ");
+   scanf("%d",&sales);
+   sal=b_salary; */
+  //A
+
   //N
   if (serv>5)
+
 
  {​​
  sal=sal+(sal*0.1);
