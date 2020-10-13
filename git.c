@@ -3,44 +3,41 @@
 
 int main()
 {
-   char s_name[20],area;
-
-   float b_salary,sal;
-   int serv,sales;
+   char Sname[10],Area[10];
+   float Bsalary,Salary;
+   int Service,Sales;
+   
    printf("Enter your name : ");
-   scanf("%s",&s_name);
+   scanf("%s",&Sname);
    printf("Enter the area : ");
-
-   scanf("%s",&area);
+   scanf("%s",&Area);
    printf("Enter your basic salary : ");
-   scanf("%f",&b_salary);
+   scanf("%f",&Bsalary);
    printf("Enter your number of years in service : ");
-   scanf("%d",&serv);
+   scanf("%d",&Service);
    printf("Monthly sales : ");
-   scanf("%d",&sales);
-   sal=b_salary; */
-  //A
-
-  //N
-  if (serv>5)
-
-
- {​​
- sal=sal+(sal*0.1);
- }​​
- if (area=='C')
- {​​
-  sal=sal+2500;
- }​​
-  if (sales<=25000)
+   scanf("%d",&Sales);
+   Salary=Bsalary;
+  
+   if (serv>5)
    {
-       sal=sal+(sales*0.1);
+	   Salary=Salary+(Salary*0.1);
    }
-   else if (sales<50000)
-	{​​​​​
-	sal=sal+(sales*0.12);
-  //I
-   printf("Name : %s \n",s_name);
-   printf("Your gross monthly remuneration is %f ",sal);
-    return 0;
+   if (Area=='C')
+   {
+  	   Salary=Salary+2500;
+   }
+   if (Sales<=25000)
+   {
+           Salary=Salary+(Sales*0.1);
+   }
+   else if (Sales<50000)
+   {
+	Salary=Salary+(Sales*0.12);
+   }
+  
+   printf("Name : %s \n",Sname);
+   printf("Your gross monthly remuneration is %f ",Salary);
+    
+   return 0;
 }
